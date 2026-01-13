@@ -1,6 +1,6 @@
 # CURSO
 
-AULA: https://youtu.be/Eih-eCCDHW0?si=7gtkjgcvECaWu7oI
+AULA: https://www.youtube.com/watch?v=GmigfELFbn4
 
 ----
 
