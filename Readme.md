@@ -15,7 +15,14 @@ python -m venv venv
 # ATIVANDO O AMBIENTE CRIADO
 
 ```
-venv\Scripts\activate
+.\venv\Scripts\activate
+```
+
+---
+# ATUALIZANDO AMBIENTE
+
+```
+pip freeze > requirements.txt
 ```
 
 ---
