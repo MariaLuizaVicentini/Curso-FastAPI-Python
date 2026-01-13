@@ -6,8 +6,10 @@ import os
 load_dotenv()
 
 bcrypt_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-SECRET_KEY = os.getenv("SECRET_KEY")
 
+SECRET_KEY = os.getenv("SECRET_KEY")
+ALGORITHM = os.getenv("ALGORITHM")
+ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES"))
 from auth_routes import auth_router
 from order_routes import order_router
 

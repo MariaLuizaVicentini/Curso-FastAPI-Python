@@ -1,6 +1,6 @@
 # CURSO
 
-AULA: https://www.youtube.com/watch?v=GmigfELFbn4
+AULA: https://www.youtube.com/watch?v=qqGkshRzw_g
 
 ----
 
@@ -77,4 +77,12 @@ alembic revision --autogenerate - "mensagem_da_alteracao"
 
 ```
 alembic upgrade head
+```
+
+----
+
+# COMO DECODIFICAR OU DESCRIPITOGRAFAR 
+
+```
+JSON Web Tokens - jwt.io: https://www.jwt.io/
 ```
