@@ -32,3 +32,42 @@ pip install -r requirements.txt
 ```
 uvicorn main:app --reload
 ```
+----
+
+# SQL ALCHEMY + SQLITE
+
+
+
+----
+
+# Alembic
+
+```
+pip instal alembic
+```
+
+```
+alembic init alembic
+```
+
+Editar no alembic.ini:
+
+sqlalchemy.url = sqlite:///banco.db
+
+Conforme definido no models.py
+--> cria conexao com banco de dados
+db = create_engine("sqlite:///banco.db")
+
+
+---
+
+# PROCESSO DE MIGRAÇÃO DE BANCO DE DADOS 
+
+```
+alembic revision --autogenerate - "mensagem_da_alteracao"
+```
+
+
+```
+alembic upgrade head
+```
