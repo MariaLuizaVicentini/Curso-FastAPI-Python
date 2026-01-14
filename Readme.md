@@ -86,3 +86,17 @@ alembic upgrade head
 ```
 JSON Web Tokens - jwt.io: https://www.jwt.io/
 ```
+
+-----
+
+# CORRIGINDO CONFLITO DE LIBS
+
+- Com o venv ATIVADO
+
+```
+pip uninstall bcrypt passlib
+```
+
+```
+pip install "passlib[bcrypt]" bcrypt==4.0.1
+```
