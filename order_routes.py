@@ -63,6 +63,6 @@ async def adicionar_item_pedido(id_pedido: int,
                              item_pedido_schema.sabor, 
                              item_pedido_schema.tamanho, 
                              item_pedido_schema.preco_unitario, 
-                             item_pedido_schema, id_pedido )
+                             id_pedido)
 
     
