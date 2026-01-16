@@ -13,14 +13,6 @@ Este repositório marca **meu primeiro projeto de REST API**, desenvolvido duran
 
 ---
 
-## 📚 Curso de Referência
-
-Aula utilizada como base para o projeto:
-
-👉 [https://www.youtube.com/watch?v=fuCkkBN0ef8](https://www.youtube.com/watch?v=fuCkkBN0ef8)
-
----
-
 ## 🐍 Criando o Ambiente Virtual
 
 ```bash
