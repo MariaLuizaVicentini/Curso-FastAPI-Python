@@ -1,7 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional
 
-# return dicionario python
 class UsuarioSchema(BaseModel):
     nome: str
     email: str
@@ -12,13 +11,11 @@ class UsuarioSchema(BaseModel):
     class Config:
         from_attributes = True
 
-
 class PedidoSchema(BaseModel):
-    usuario: int 
+    id_usuario: int
 
     class Config:
         from_attributes = True
-
 
 class LoginSchema(BaseModel):
     email: str
@@ -27,12 +24,11 @@ class LoginSchema(BaseModel):
     class Config:
         from_attributes = True
 
-
 class ItemPedidoSchema(BaseModel):
-     quantidade: int
-     sabor: str
-     tamanho: str
-     preco_unitario: float
+    quantidade: int
+    sabor: str
+    tamanho: str
+    preco_unitario: float
 
-     class Config:
-         from_attributes = True
+    class Config:
+        from_attributes = True
